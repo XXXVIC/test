@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Test Page</title>
+</head>
+<body>
+    <h1 id="text">0</h1>
+    <button id="btn">Натисни мене</button>
+
+    <script>
+        document.getElementById("btn").onclick = function () {
+            document.getElementById("text").innerText = "Ти зробив це";
+        };
+    </script>
+</body>
+</html>
